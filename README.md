@@ -216,4 +216,6 @@ This project is built using modern technologies for scalability, maintainability
 
 ## DEMO 
 **Video Demonstration:**  
-[Insert Video Demonstration Link Here]
+Note : i have recorded the video via screen recorder and uploaded via drive.
+[[Demo Link](https://drive.google.com/file/d/1WKPwzjfN_V1Ot86g1mnoXDKgRto7ocwY/view?usp=sharing)]
+
