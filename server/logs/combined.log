@@ -1,0 +1,172 @@
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T08:07:20.187Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T08:36:16.111Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T08:36:26.900Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T08:36:34.355Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T08:36:35.376Z"}
+{"level":"info","message":"Received request to upload Excel file","timestamp":"2025-09-05T08:37:57.743Z"}
+{"level":"info","message":"Excel file processed successfully. Rows: 3","timestamp":"2025-09-05T08:37:57.772Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T08:39:59.259Z"}
+{"level":"info","message":"Received load optimization request","timestamp":"2025-09-05T08:40:04.752Z"}
+{"level":"warn","message":"No fleet data uploaded yet for load optimization","timestamp":"2025-09-05T08:40:04.752Z"}
+{"level":"info","message":"Received request to upload Excel file","timestamp":"2025-09-05T08:40:17.743Z"}
+{"level":"info","message":"Excel file processed successfully. Rows: 3","timestamp":"2025-09-05T08:40:17.775Z"}
+{"level":"info","message":"Received load optimization request","timestamp":"2025-09-05T08:40:21.033Z"}
+{"level":"info","message":"Preparing truck heap for optimization","timestamp":"2025-09-05T08:40:21.034Z"}
+{"fullyUtilized":false,"level":"info","message":"Optimization complete","timestamp":"2025-09-05T08:40:21.035Z","totalAssigned":2000,"totalCapacity":3000}
+{"level":"info","message":"Received cost calculation request for all companies","timestamp":"2025-09-05T08:41:04.284Z"}
+{"Company A":0,"Company B":0,"Company C":0,"level":"info","message":"Cost calculation complete for all companies","timestamp":"2025-09-05T08:41:04.285Z"}
+{"level":"info","message":"Received cost calculation request for all companies","timestamp":"2025-09-05T08:41:39.624Z"}
+{"Company A":750,"Company B":1050,"Company C":1200,"level":"info","message":"Cost calculation complete for all companies","timestamp":"2025-09-05T08:41:39.626Z"}
+{"level":"info","message":"Received request to download report","timestamp":"2025-09-05T08:42:31.510Z"}
+{"level":"info","message":"Exporting report as CSV","timestamp":"2025-09-05T08:42:31.511Z"}
+{"level":"info","message":"Received request to download report","timestamp":"2025-09-05T08:43:06.082Z"}
+{"level":"info","message":"Exporting report as JSON","timestamp":"2025-09-05T08:43:06.083Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T08:54:34.319Z"}
+{"level":"info","message":"Received request to upload Excel file","timestamp":"2025-09-05T08:54:42.806Z"}
+{"level":"info","message":"Excel file processed successfully. Rows: 3","timestamp":"2025-09-05T08:54:42.834Z"}
+{"level":"info","message":"Received load optimization request","timestamp":"2025-09-05T08:54:47.892Z"}
+{"level":"info","message":"Received load optimization request","timestamp":"2025-09-05T08:55:02.198Z"}
+{"level":"info","message":"Preparing truck heap for optimization","timestamp":"2025-09-05T08:55:02.199Z"}
+{"fullyUtilized":false,"level":"info","message":"Optimization + cost calculation complete","timestamp":"2025-09-05T08:55:02.201Z","totalAssigned":2000,"totalCapacity":3000}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T09:23:48.101Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T09:24:28.758Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T09:25:35.808Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T09:25:39.730Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T09:25:42.655Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T09:25:46.445Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T09:25:49.141Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T09:25:51.673Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T09:25:58.450Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T09:26:04.864Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T09:29:15.327Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T09:29:17.940Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T09:29:25.222Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T09:29:28.092Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T09:29:29.459Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T09:29:31.900Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T09:29:47.693Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T09:31:24.420Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T09:32:32.429Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T09:32:56.893Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T09:36:32.711Z"}
+{"level":"info","message":"Received request to upload Excel file","timestamp":"2025-09-05T09:38:53.054Z"}
+{"level":"info","message":"Excel file processed successfully. Rows: 3","timestamp":"2025-09-05T09:38:53.087Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T09:39:32.386Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T09:39:33.801Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T09:39:40.043Z"}
+{"level":"info","message":"Received request to upload Excel file","timestamp":"2025-09-05T09:39:50.401Z"}
+{"level":"info","message":"Excel file processed successfully. Rows: 3","timestamp":"2025-09-05T09:39:50.443Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T09:40:08.806Z"}
+{"level":"warn","message":"No fleet data available for optimization","timestamp":"2025-09-05T09:40:13.618Z"}
+{"level":"info","message":"Received request to upload Excel file","timestamp":"2025-09-05T09:40:18.606Z"}
+{"level":"info","message":"Excel file processed successfully. Rows: 3","timestamp":"2025-09-05T09:40:18.644Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T09:40:43.228Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T09:40:47.387Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T09:40:52.485Z"}
+{"level":"warn","message":"No fleet data available for optimization","timestamp":"2025-09-05T09:40:55.474Z"}
+{"level":"info","message":"Received request to upload Excel file","timestamp":"2025-09-05T09:40:58.986Z"}
+{"level":"info","message":"Excel file processed successfully. Rows: 3","timestamp":"2025-09-05T09:40:59.006Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T09:41:15.101Z"}
+{"level":"info","message":"Received request to upload Excel file","timestamp":"2025-09-05T09:41:20.813Z"}
+{"level":"info","message":"Excel file processed successfully. Rows: 3","timestamp":"2025-09-05T09:41:20.839Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T09:42:43.589Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T09:42:47.734Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T09:49:44.431Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T09:49:46.071Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T09:49:47.199Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T09:49:50.747Z"}
+{"level":"info","message":"Received request to upload Excel file","timestamp":"2025-09-05T09:49:57.126Z"}
+{"level":"info","message":"Excel file processed successfully. Rows: 3","timestamp":"2025-09-05T09:49:57.154Z"}
+{"level":"warn","message":"Total cost parameter is missing","timestamp":"2025-09-05T09:50:01.663Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T09:50:15.882Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T09:50:17.631Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T09:50:20.443Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T09:50:21.829Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T09:50:26.662Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T09:50:29.368Z"}
+{"level":"warn","message":"No fleet data available for optimization","timestamp":"2025-09-05T09:50:39.113Z"}
+{"level":"info","message":"Received request to upload Excel file","timestamp":"2025-09-05T09:50:42.952Z"}
+{"level":"info","message":"Excel file processed successfully. Rows: 3","timestamp":"2025-09-05T09:50:42.975Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T10:00:10.412Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T10:02:38.391Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T10:03:16.173Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T10:03:18.631Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T10:03:28.563Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T10:06:33.046Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T10:06:36.579Z"}
+{"level":"info","message":"Received request to upload Excel file","timestamp":"2025-09-05T10:06:47.604Z"}
+{"level":"info","message":"Excel file processed successfully. Rows: 3","timestamp":"2025-09-05T10:06:47.694Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T10:58:28.923Z"}
+{"level":"info","message":"Received request to upload Excel file","timestamp":"2025-09-05T10:58:43.845Z"}
+{"level":"info","message":"Excel file processed successfully. Rows: 3","timestamp":"2025-09-05T10:58:43.920Z"}
+{"level":"info","message":"Received request to upload Excel file","timestamp":"2025-09-05T11:00:20.914Z"}
+{"level":"info","message":"Excel file processed successfully. Rows: 3","timestamp":"2025-09-05T11:00:20.938Z"}
+{"level":"info","message":"Received request to upload Excel file","timestamp":"2025-09-05T11:05:17.903Z"}
+{"level":"info","message":"Excel file processed successfully. Rows: 3","timestamp":"2025-09-05T11:05:17.937Z"}
+{"level":"warn","message":"Total cost parameter is missing","timestamp":"2025-09-05T11:05:20.692Z"}
+{"level":"info","message":"Received request to upload Excel file","timestamp":"2025-09-05T11:11:24.412Z"}
+{"level":"info","message":"Excel file processed successfully. Rows: 3","timestamp":"2025-09-05T11:11:24.457Z"}
+{"level":"info","message":"Received request to download report","timestamp":"2025-09-05T11:11:40.205Z"}
+{"level":"info","message":"Exporting report as JSON","timestamp":"2025-09-05T11:11:40.206Z"}
+{"level":"info","message":"Received request to download report","timestamp":"2025-09-05T11:11:43.499Z"}
+{"level":"info","message":"Exporting report as CSV","timestamp":"2025-09-05T11:11:43.501Z"}
+{"level":"info","message":"Received request to upload Excel file","timestamp":"2025-09-05T11:12:44.470Z"}
+{"level":"info","message":"Excel file processed successfully. Rows: 3","timestamp":"2025-09-05T11:12:44.479Z"}
+{"level":"info","message":"Received request to download report","timestamp":"2025-09-05T11:12:55.518Z"}
+{"level":"info","message":"Exporting report as JSON","timestamp":"2025-09-05T11:12:55.519Z"}
+{"level":"info","message":"Received request to download report","timestamp":"2025-09-05T11:13:06.287Z"}
+{"level":"info","message":"Exporting report as CSV","timestamp":"2025-09-05T11:13:06.288Z"}
+{"level":"info","message":"Received request to upload Excel file","timestamp":"2025-09-05T11:14:48.592Z"}
+{"level":"info","message":"Excel file processed successfully. Rows: 3","timestamp":"2025-09-05T11:14:48.595Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T11:18:51.749Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T11:18:53.648Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T11:19:03.622Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T11:19:07.929Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T11:19:33.502Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T11:19:56.941Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T11:20:04.815Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T11:20:13.871Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T11:20:19.922Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T11:21:11.788Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T11:21:49.060Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T11:21:53.685Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T11:22:10.416Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T11:22:13.336Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T11:22:15.205Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T11:22:24.209Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T11:22:27.558Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T11:23:11.667Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T11:23:13.304Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T11:23:15.422Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T11:23:17.090Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T11:28:49.736Z"}
+{"level":"info","message":"Received request to upload Excel file","timestamp":"2025-09-05T11:30:10.053Z"}
+{"level":"info","message":"Excel file processed successfully. Rows: 3","timestamp":"2025-09-05T11:30:10.100Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T11:31:04.357Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T11:31:06.044Z"}
+{"level":"warn","message":"No fleet data available for optimization","timestamp":"2025-09-05T11:31:09.937Z"}
+{"level":"info","message":"Received request to upload Excel file","timestamp":"2025-09-05T11:31:20.194Z"}
+{"level":"info","message":"Excel file processed successfully. Rows: 3","timestamp":"2025-09-05T11:31:20.225Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-09-05T12:48:51.207Z"}
+{"level":"info","message":"Received request to upload Excel file","timestamp":"2025-09-05T12:49:04.505Z"}
+{"level":"info","message":"Excel file processed successfully. Rows: 3","timestamp":"2025-09-05T12:49:04.553Z"}
+{"level":"info","message":"Received request to upload Excel file","timestamp":"2025-09-05T12:52:29.625Z"}
+{"level":"info","message":"Excel file processed successfully. Rows: 3","timestamp":"2025-09-05T12:52:29.641Z"}
+{"level":"info","message":"Received request to upload Excel file","timestamp":"2025-09-05T12:54:49.183Z"}
+{"level":"info","message":"Excel file processed successfully. Rows: 3","timestamp":"2025-09-05T12:54:49.186Z"}
+{"level":"info","message":"Received request to upload Excel file","timestamp":"2025-09-05T12:55:11.490Z"}
+{"level":"info","message":"Excel file processed successfully. Rows: 3","timestamp":"2025-09-05T12:55:11.504Z"}
+{"level":"info","message":"Received request to upload Excel file","timestamp":"2025-09-05T12:58:20.186Z"}
+{"level":"info","message":"Excel file processed successfully. Rows: 3","timestamp":"2025-09-05T12:58:20.196Z"}
+{"level":"info","message":"Received request to upload Excel file","timestamp":"2025-09-05T12:58:38.908Z"}
+{"level":"info","message":"Excel file processed successfully. Rows: 5","timestamp":"2025-09-05T12:58:38.910Z"}
+{"level":"info","message":"Received request to upload Excel file","timestamp":"2025-09-05T13:06:43.607Z"}
+{"level":"info","message":"Excel file processed successfully. Rows: 3","timestamp":"2025-09-05T13:06:43.623Z"}
+{"level":"info","message":"Received request to upload Excel file","timestamp":"2025-09-05T13:13:37.296Z"}
+{"level":"info","message":"Excel file processed successfully. Rows: 3","timestamp":"2025-09-05T13:13:37.302Z"}
+{"level":"info","message":"Received request to upload Excel file","timestamp":"2025-09-05T13:16:23.558Z"}
+{"level":"info","message":"Excel file processed successfully. Rows: 3","timestamp":"2025-09-05T13:16:23.564Z"}
+{"level":"info","message":"Received request to upload Excel file","timestamp":"2025-09-05T13:25:09.432Z"}
+{"level":"info","message":"Excel file processed successfully. Rows: 20","timestamp":"2025-09-05T13:25:09.472Z"}
+{"level":"info","message":"Received request to upload Excel file","timestamp":"2025-09-05T13:26:03.847Z"}
+{"level":"info","message":"Excel file processed successfully. Rows: 5","timestamp":"2025-09-05T13:26:03.851Z"}
