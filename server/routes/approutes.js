@@ -2,7 +2,7 @@
 const express = require('express');
 const multer = require('multer');
 const router = express.Router();
-const { getOptimizedLoads } = require('../controllers/logisticscontroller');
+const { getOptimizedLoads ,getOptimizationResult } = require('../controllers/logisticscontroller');
 const { uploadExcel, downloadReport } = require('../controllers/excelcontroller');
 
 
@@ -12,5 +12,6 @@ router.post('/upload', upload.single('file'), uploadExcel);
 //router.get('/costs', getCompanyCost);
 router.get('/optimizeload', getOptimizedLoads);
 router.get('/report', downloadReport);
+router.get("/", getOptimizationResult);
 
 module.exports = router;

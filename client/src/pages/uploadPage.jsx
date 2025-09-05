@@ -1,19 +1,35 @@
 import React, { useState } from "react";
-import { uploadCSV, getOptimizedLoads } from "../api";
+import { useNavigate } from "react-router-dom";
+import { uploadCSV, getOptimizedLoads } from "../api/index";
 import { FileText, UploadCloud } from "lucide-react";
+import bgImage from "../assets/img2.jpg"; // <-- add background image
 
 const UploadPage = ({ onUploadSuccess }) => {
   const [file, setFile] = useState(null);
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState("");
-  const [parsedData, setParsedData] = useState(null);
   const [uploaded, setUploaded] = useState(false);
   const [totalCost, setTotalCost] = useState("");
+  const navigate = useNavigate();
 
-  const handleFileChange = (e) => {
-    setFile(e.target.files[0]);
-    setMessage("");
-  };
+ const handleFileChange = (e) => {
+  const selectedFile = e.target.files[0];
+
+  if (!selectedFile) return;
+
+  // Check file extension
+  const allowedExtensions = ["xlsx", "csv"];
+  const fileExtension = selectedFile.name.split(".").pop().toLowerCase();
+
+  if (!allowedExtensions.includes(fileExtension)) {
+    setMessage("Invalid file type! Please upload a CSV or XLSX file.");
+    setFile(null);
+    return;
+  }
+
+  setFile(selectedFile);
+  setMessage("");
+};
 
   const handleUpload = async () => {
     if (!file) {
@@ -23,8 +39,7 @@ const UploadPage = ({ onUploadSuccess }) => {
     setLoading(true);
     setMessage("");
     try {
-      const data = await uploadCSV(file);
-      setParsedData(data);
+      await uploadCSV(file);
       setUploaded(true);
       setMessage("CSV uploaded successfully! Enter total cost and click 'Optimize'.");
     } catch (err) {
@@ -44,8 +59,9 @@ const UploadPage = ({ onUploadSuccess }) => {
     setMessage("");
     try {
       const optimizedData = await getOptimizedLoads(totalCost);
-      onUploadSuccess(optimizedData);
-      setMessage("Optimization complete!");
+
+      onUploadSuccess(optimizedData); // save in parent state
+      navigate("/dashboard"); // redirect
     } catch (err) {
       console.error(err);
       setMessage("Optimization failed. Please try again.");
@@ -55,11 +71,19 @@ const UploadPage = ({ onUploadSuccess }) => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-white px-6">
-      <div className="w-full max-w-lg text-center">
+    <div
+      className="min-h-screen flex flex-col items-center justify-center px-6 bg-cover bg-center relative"
+      style={{ backgroundImage: `url(${bgImage})`,
+     marginTop: '-82px',
+    }}
+    >
+      {/* Dark overlay for better readability */}
+      <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+
+      <div className="relative w-full max-w-lg text-center bg-white/90 p-10 rounded-2xl shadow-lg backdrop-blur">
         {/* Title */}
-        <h1 className="text-4xl font-semibold text-purple-500 mb-2">Upload</h1>
-        <h1 className="text-4xl font-semibold text-purple-500 mb-6">Your Shipment Data</h1>
+        <h1 className="text-4xl font-semibold text-purple-600 mb-2">Upload</h1>
+        <h1 className="text-4xl font-semibold text-purple-600 mb-6">Your Shipment Data</h1>
         <p className="text-lg text-gray-700 mb-8">
           Upload your CSV/XLSX file to optimize truck usage and reduce logistics costs.
         </p>
@@ -93,7 +117,7 @@ const UploadPage = ({ onUploadSuccess }) => {
             {file && (
               <button
                 onClick={handleUpload}
-                className="mt-5 w-full bg-purple-400 text-white text-lg px-6 py-3 rounded-xl shadow-sm hover:bg-purple-500 transition-colors font-medium disabled:opacity-50"
+                className="mt-5 w-full bg-purple-500 text-white text-lg px-6 py-3 rounded-xl shadow-sm hover:bg-purple-600 transition-colors font-medium disabled:opacity-50"
                 disabled={loading}
               >
                 {loading ? "Uploading..." : "Upload File"}
@@ -104,7 +128,7 @@ const UploadPage = ({ onUploadSuccess }) => {
 
         {/* After upload */}
         {uploaded && (
-          <div className="mt-6 border border-gray-300 p-6 rounded-xl bg-gray-50 shadow-sm flex flex-col items-start gap-4 transition-all duration-300">
+          <div className="mt-6 border border-gray-300 p-6 rounded-xl bg-gray-50 shadow-sm flex flex-col items-start gap-4">
             <div className="flex items-center gap-3">
               <FileText className="w-7 h-7 text-purple-500" />
               <span className="text-lg text-gray-700 font-medium">{file?.name}</span>
@@ -120,7 +144,7 @@ const UploadPage = ({ onUploadSuccess }) => {
 
             <button
               onClick={handleOptimize}
-              className="w-full bg-green-400 text-white text-lg px-6 py-3 rounded-xl shadow-sm hover:bg-green-500 transition-colors font-medium disabled:opacity-50"
+              className="w-full bg-green-500 text-white text-lg px-6 py-3 rounded-xl shadow-sm hover:bg-green-600 transition-colors font-medium disabled:opacity-50"
               disabled={loading}
             >
               {loading ? "Optimizing..." : "Optimize"}
@@ -129,7 +153,7 @@ const UploadPage = ({ onUploadSuccess }) => {
         )}
 
         {message && (
-          <p className="mt-5 text-purple-600 text-base font-medium transition-all duration-300">{message}</p>
+          <p className="mt-5 text-purple-600 text-base font-medium">{message}</p>
         )}
       </div>
     </div>

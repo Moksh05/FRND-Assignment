@@ -21,7 +21,16 @@ export const uploadCSV = async (file) => {
     throw err;
   }
 };
-
+export const getSavedOptimizedData = async () => {
+  try {
+    const res = await axios.get(`${API_BASE}/`);
+    console.log("Fetched saved optimized data:", res.data);
+    return res.data;
+  } catch (err) {
+    console.error("Fetching saved optimized data failed:", err);
+    throw err;
+  }
+};
 // Fetch optimized load results
 export const getOptimizedLoads = async (totalCost) => {
   try {
