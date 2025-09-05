@@ -185,6 +185,9 @@ This algorithm employs a **Greedy approach** by always assigning the largest ava
 
 This **greedy approach** ensures **efficient assignment of truck loads**, minimizes unassigned loads, and fairly distributes total costs among companies.
 
+### API Endpoints 
+[[API DOCUMENTATION](https://documenter.getpostman.com/view/30406371/2sB3HkqLg6)]
+
 ### 7. **Tech Stack**
 
 This project is built using modern technologies for scalability, maintainability, and real-time operations:
@@ -218,4 +221,5 @@ This project is built using modern technologies for scalability, maintainability
 **Video Demonstration:**  
 Note : i have recorded the video via screen recorder and uploaded via drive.
 [[Demo Link](https://drive.google.com/file/d/1WKPwzjfN_V1Ot86g1mnoXDKgRto7ocwY/view?usp=sharing)]
+
 
